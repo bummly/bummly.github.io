@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
+@import url(' https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+.hea{
+				padding:15px;
+				font-family: 'Grand Hotel', cursive;
+				 font-size:46px;
+				 color:#FFAAA5 ; /*font-size: 18px;letter-spacing: -0.03px; line-height: 1.58;*/
+				}
+		
+	
+	
+
+#list {
+				list-style-type:none;
+				margin:0;
+padding:10px;
+max-width:400px;
+box-align: center;
+-moz-box-align: center; /* Mozilla */ -webkit-box-align: center;
+}
+.explore-box{
+				padding:5px;
+				
+				
+			/*	display:grid;
+				grid-template-columns:65% 25%;
+				grid-column-gap:10px;
+				grid-row-gap:10px;*/
+				
+				}
+	.explore-box img{
+						width:60px;
+						max-width:300px;
+				height:60px;
+				border-radius:5px;
+						}
+.right{
+				width:60px;
+				max-width:200px;
+				height:60px;
+				border-radius:5px;				
+				float:right;
+				}
+				
+.left{
+				float:left;
+				width:80%;
+				
+				
+				
+				margin-top: 0px; font-family: "Lora"; font-size: 16px; letter-spacing: -0.03px; line-height: 1.58;
+				
+				}
+				
+	.left span{
+					font-family: "Lato", sans-serif; color: rgba(0, 0, 0, 0.54);
+					font-size:14px;
+					}
+
+
+
+
+
+
+
+
+
+input[type=text] {
+				background: url(search.png) no-repeat scroll 13px 17px;  padding-left:30px;
+				
+	 /*background-color:#F6F6F4 ;*/
+  width: 95%;
+  padding: 18px 50px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:2px solid #fff;
+  border-bottom: 3px solid #000;
+  /*-webkit-transition: 0.5s;
+  transition: 0.5s;*/
+  outline: none;
+  /*border-radius:8px;*/
+  color:#000/*#F1F1F3 #9B9B9A*/;
+  transition:0.3s;
+  font-size:22px;
+  font-family: "Lato", sans-serif;
+  
+  
+  
+}
+
+
+
+
+input[type=text]:focus {
+  /*border: 2px solid #F6F6F4;
+  box-shadow:0.16px 0.16px 2px 1px #F6F6F4;
+  */
+  
+}
+
+
+.search-div{
+				padding:15px;
+				}
